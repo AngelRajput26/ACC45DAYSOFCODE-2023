@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int X,Y,Z,T;
+	cin>>T;
+	while(T--)
+	{ cin>>X>>Y>>Z;
+	   int  total=(5*X)+(10*Y);
+	   if(total>= Z)
+	   {
+	       cout<<(total/Z)<<endl;
+	   }
+	   else
+	   cout<<" 0";
+	    
+	}
+	return 0;
+}
