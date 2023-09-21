@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y,z,amt;
+    
+    cout<<"enter your goal: ";
+    cin>>x;
+    cout<<"enter the number of chocolates sold: ";
+    cin>>y;
+    if(x<=100 && y<=100)
+    {
+    z=min(x,y);
+    amt=z*1+2*(y-z);
+    cout<<"the total amount he made:"<<amt;
+    }
+    else{
+        cout<<"sorry, only 100 chocolates available.";
+    }
+    
+   
+}
