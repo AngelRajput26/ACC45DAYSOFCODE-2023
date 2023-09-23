@@ -1,18 +1,22 @@
-# ACC45DAYSOFCODE-2023
-#include <iostream>
 using namespace std;
 
 int main() {
-    int n, t;
-	cin >> t;
-	while(t--){
-	    cin >> n;
-	    if(n % 4 == 0){
-	        cout << n/4 << endl;
-	    }
-	    else{
-	        cout << (n/4)+1 << endl;
-	    }
-	}
+	// your code goes here
+	int T;
+	cin >>T;
+	while(T--)
+	{
+	    int N;
+	    string d;
+	    cin>>N;
+	   cin>>d;
+	    for(int i=0; i<N;i++)
+	    {
+	        if(d[i]=='5' or d[i]=='0')
+	            {
+	                cout<<"yes"<<endl;
+	                break;}
+	                 }
+	           } cout<<"no"<<endl;
 	return 0;
 }
