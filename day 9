@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int t;
+cin>>t;
+while(t--)
+{
+    int b,n,w,h,p,a;
+    int temp=0;
+    int price=0;
+    cin>>n;
+    cin>>b;
+    for(int i=1;i<=n;i++)
+    {   cin>>w;
+        cin>>h;
+        cin>>p;
+        a=w*h;
+    for(int i=1;i<=n;i++)
+    { 
+      if(p<=b)
+    {
+        if(temp<a)
+        {temp=a;
+                 } 
+        
+    } 
+        
+    } }
+    
+    if(b>=p)
+    {
+            cout<<temp<<endl;
+    }
+        else
+        
+           cout<<"no tablet"<<endl; 
+        
+    
+    
+    }
+    
+
+	return 0;
+}
