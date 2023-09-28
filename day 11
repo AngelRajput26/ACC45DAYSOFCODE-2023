@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n,m;
+	    cin>>n;
+	    cin>>m;
+	    int run = m*36;
+	    if(n<=run)
+	    {
+	        cout<<"yes"<<endl;
+	    }
+	        else
+	        cout<<"no"<<endl;
+	    
+	}
+	return 0;
+}
+
